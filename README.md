@@ -22,3 +22,7 @@ instructions to deploy your web server:
 5. You can also use the computer running the server to access the dashboard and share files
 
 You are now ready to make your files fly over your network! Enjoy :D
+
+# Problems/Quirks
+1. Windows firewall may block incoming connections to the web server so you may need to allow `python.exe` to pass through your firewall.
+2. There is no progress bar at the moment cause I don't know how to use JavaScript, so don't be worried when it shows nothing when you upload. All you got is the refresh bar to determine the progress and once the upload is successful, the page will refresh.
